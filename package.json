@@ -1,8 +1,8 @@
 {
-    "name": "open-livestreamer",
-    "title": "Open Livestreamer",
+    "name": "open-streamlink",
+    "title": "Open Streamlink",
     "id": "jid1-Y6BhyMM8GoZ3eA@jetpack",
-    "description": "Open livestreamer directly from your browser", 
+    "description": "Open streamlink directly from your browser",
     "author": "issue",
     "license": "GPL-3.0",
     "version": "2.1.0",
@@ -12,8 +12,8 @@
     },
     "preferences": [{
         "name": "path",
-        "title": "Path to livestreamer",
-        "description": "Path to livestreamer executable",
+        "title": "Path to streamlink",
+        "description": "Path to streamlink executable",
         "type": "string",
         "value": ""
     }, {
@@ -24,26 +24,26 @@
         "value": "best"
     }, {
         "name": "optargs",
-        "title": "Optional arguments for livestreamer",
-        "description": "You can pass livestreamer options here in the form of --foo=bar,--baz=foo. Check livestreamer -h for what is available",
+        "title": "Optional arguments for streamlink",
+        "description": "You can pass streamlink options here in the form of --foo=bar,--baz=foo. Check streamlink -h for what is available",
         "type": "string"
 
     },{
         "name": "qualityselector",
         "title": "Quality selection menu",
-        "description": "Display a quality selection window everytime livestreamer is launched. ",
+        "description": "Display a quality selection window everytime streamlink is launched. ",
         "type": "bool",
         "value": true
     },{
         "name": "togglecontextmenu",
         "title": "Enable the context menu entry",
-        "description": "Shows a context menu entry to launch livestreamer (requires Firefox restart)",
+        "description": "Shows a context menu entry to launch streamlink (requires Firefox restart)",
         "type": "bool",
         "value": true
     },{
     	"name": "theme",
     	"title": "Theme",
-    	"description": "Use the light or dark theme or let Open in Livestreamer detect it automatically (results may vary).",
+    	"description": "Use the light or dark theme or let Open in Streamlink detect it automatically (results may vary).",
         "type": "menulist",
         "value": "auto",
 	"options": [{
